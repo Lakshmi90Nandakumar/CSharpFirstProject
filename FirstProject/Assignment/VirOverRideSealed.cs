@@ -8,11 +8,12 @@ namespace FirstProject.Assignment
 {
     public class VirOverRideSealed
     {
-         public void method1()
+         public void Method1(int a=2)
         {
             Console.WriteLine("From Parent Method1");
+            Console.WriteLine(a);
         } 
-        public virtual void method2() 
+        public virtual void Method2() 
         {
            Console.WriteLine("From Parent Method2");
         
@@ -22,7 +23,7 @@ namespace FirstProject.Assignment
     }
     public class ChildOvrRide:VirOverRideSealed//child class 
     {
-        public override void method2()//overriding method2 of parent from child
+        public override void Method2()//overriding method2 of parent from child
         {
           Console.WriteLine("From method2 of Child class");
 
@@ -31,7 +32,7 @@ namespace FirstProject.Assignment
     }
     public sealed class GrndChild:ChildOvrRide//achieving multilevel inheritance
     {
-        public void method3()
+        public void Method3()
         {
             Console.WriteLine("From Grand child class");
                 
@@ -43,9 +44,9 @@ namespace FirstProject.Assignment
         public static void main(string[] args)
         {
             GrndChild grndChild = new GrndChild();//creating obj for sealed class bcoz we can't inherit
-            grndChild.method1();
-            grndChild.method2();
-            grndChild.method3();
+            grndChild.Method1();
+            grndChild.Method2();
+            grndChild.Method3();
 
         }
     }

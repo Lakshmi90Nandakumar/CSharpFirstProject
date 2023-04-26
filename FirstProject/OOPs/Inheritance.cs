@@ -16,7 +16,7 @@ namespace DatatypePrac.OOPs
           this.name = name;
           this.id = id;  
         }
-        public virtual void display()
+        public virtual void Display()
         {
             Console.WriteLine("Name :" + name);
             Console.WriteLine("ID :" + id);
@@ -30,9 +30,9 @@ namespace DatatypePrac.OOPs
             this.addr = addr;
         
         }
-        public override void display()
+        public override void Display()
         {
-            base.display();
+            base.Display();
             Console.WriteLine("Address:  " + addr);
         }
     }
@@ -41,7 +41,7 @@ namespace DatatypePrac.OOPs
         public static void main(String[] args) 
         {
           ChildClas childClas=new ChildClas("chennai");    
-          childClas.display();
+          childClas.Display();
         }
     }
 }

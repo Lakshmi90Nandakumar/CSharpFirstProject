@@ -18,6 +18,7 @@ namespace DatatypePrac.OOPs
             this.addr = addr;
         }
 
+
         public void display()
         {
             Console.WriteLine("Name is :" + name);
@@ -28,9 +29,8 @@ namespace DatatypePrac.OOPs
     }
     public class Display
     {
-        public static void Main(String[] args)
-        {
-           
+        public static void main(String[] args)
+        {           
             Encapsulation encapsulation = new Encapsulation("lakshmi",9876543210,"BTM");
             Console.WriteLine(encapsulation.name);
             encapsulation.name = "chitra";
