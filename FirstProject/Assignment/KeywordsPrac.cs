@@ -24,6 +24,7 @@ namespace FirstProject.Assignment
     public class ChildCls:KeywordsPrac
     {
         String city,branch, state;
+        int[] arr = { 3, 5, 2, 6 };
         public ChildCls():base("lakshmi")//achieving constructor chaining from child to parent
         {
             Console.WriteLine("Constructor without argument");
@@ -45,6 +46,10 @@ namespace FirstProject.Assignment
             Console.WriteLine("Customer branch: " + branch);
             Console.WriteLine("Customer State:  " + state);
             Console.WriteLine("Customer city :  " + city);
+            foreach(int i in arr)
+            {
+                Console.WriteLine(i);
+            }
         }
     
     }

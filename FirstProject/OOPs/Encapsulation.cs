@@ -11,7 +11,13 @@ namespace DatatypePrac.OOPs
         public String name { get; set; }
         private long contact;
         private String addr;
-       
+        public Encapsulation(string name, long contact, string addr)
+        {
+            this.name = name;
+            this.contact = contact;
+            this.addr = addr;
+        }
+
         public void display()
         {
             Console.WriteLine("Name is :" + name);
@@ -22,17 +28,12 @@ namespace DatatypePrac.OOPs
     }
     public class Display
     {
-        public static void ain(String[] args)
+        public static void Main(String[] args)
         {
-            /* Encapsulation encapsulation = new Encapsulation("Lakshmi",9791618234,"");
-             String addr=encapsulation.getAddr;
-            // Strind add=encapsulation.setAddr;
-             encapsulation.display();
-             Console.WriteLine("New Address : "+addr);
-         */
-            Encapsulation encapsulation = new Encapsulation();
+           
+            Encapsulation encapsulation = new Encapsulation("lakshmi",9876543210,"BTM");
             Console.WriteLine(encapsulation.name);
-            encapsulation.name = "lakshmi";
+            encapsulation.name = "chitra";
             Console.WriteLine(encapsulation.name);
 
         }

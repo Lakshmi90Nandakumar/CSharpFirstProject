@@ -40,7 +40,7 @@ namespace FirstProject.Assignment
     }
     public class Ex
     {
-        public static void Main(string[] args)
+        public static void main(string[] args)
         {
             GrndChild grndChild = new GrndChild();//creating obj for sealed class bcoz we can't inherit
             grndChild.method1();
