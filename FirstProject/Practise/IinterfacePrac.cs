@@ -16,7 +16,7 @@ namespace FirstProject.Practise
         {
             Console.WriteLine("Method has been overridden");
         }
-        public static void Main(string[] args) 
+        public static void main(string[] args) 
         {
             IinterfacePrac implementsEx = new ImplementsEx();
             implementsEx.Show();
