@@ -29,7 +29,7 @@ namespace FirstProject.Collection
             }
             Console.WriteLine(list.Count);  //to get the size of the list  
             var last=list.FindLast(list.Count);
-            Console.WriteLine(last);
+            Console.WriteLine("number of element in the list is: "+last);
 
             //using node to add data in the list
             LinkedListNode<int> node = list.Find(90);

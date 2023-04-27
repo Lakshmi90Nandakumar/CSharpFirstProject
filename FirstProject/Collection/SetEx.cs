@@ -8,7 +8,7 @@ namespace FirstProject.Collection
 {
     internal class SetEx
     {
-        public static void Main()
+        public static void main()
         {
 
             SortedSet<String> set = new SortedSet<String>();
