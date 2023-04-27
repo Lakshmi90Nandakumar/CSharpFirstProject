@@ -8,7 +8,7 @@ namespace FirstProject.Collection
 {
     internal class SortedDictionaryEx
     {
-        public static void Main(string[] args)
+        public static void main(string[] args)
         {
             var dic = new SortedDictionary<int, String>();
             dic.Add(3, "lakshmi");

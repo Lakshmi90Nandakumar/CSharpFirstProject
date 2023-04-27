@@ -18,6 +18,7 @@ namespace FirstProject.Collection
             set.Add("Opinion");
             set.Add("Good");
             set.Add("apple");
+            
             foreach (String s in set) 
             {
                 System.Console.WriteLine(s);
