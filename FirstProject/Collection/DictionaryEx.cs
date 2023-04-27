@@ -8,7 +8,7 @@ namespace FirstProject.Collection
 {
     internal class DictionaryEx
     {
-        public static void Main()
+        public static void main()
         {
             //creating instance for dictionary
             Dictionary<String,String> dic = new Dictionary<String,String>();
