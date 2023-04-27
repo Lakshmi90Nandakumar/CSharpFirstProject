@@ -60,11 +60,12 @@ namespace FirstProject.Practise
             Console.WriteLine(id); 
             Console.WriteLine(name);
         }
-        public static void Main()
+        public static void main()
         {
             SuperChilCls superChilCls = new SuperChilCls("TYSS100", "lakshmi");
             superChilCls.Display();
         }
 
     }
+
 }
