@@ -8,7 +8,7 @@ namespace FirstProject.Collection
 {
     internal class LinkedListEx
     {
-        public static void Main()
+        public static void main()
         {
             LinkedList<int> list = new LinkedList<int>();//creating obj for linked list
            
@@ -35,6 +35,7 @@ namespace FirstProject.Collection
             LinkedListNode<int> node = list.Find(90);
             list.AddAfter(node, 91);//adding data after node
             list.AddBefore(node, 77);
+            list.AddAfter(node, 93);
             Console.WriteLine(" ----------------------------");
 
             //print the data
