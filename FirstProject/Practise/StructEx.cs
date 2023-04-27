@@ -28,9 +28,8 @@ namespace FirstProject.Practise
     public class StructEx
     {
         
-        public static void Main()
-        {
-           
+        public static void main()
+        {           
             Sample s = new Sample(10,"Welcome");
             s.Show();
         }
