@@ -15,6 +15,7 @@ namespace FirstProject.Collection
             dic.Add(2, "rajeev");
             dic.Add(1, "Panthal");
             dic.TryAdd(4, "Raja");
+            dic.TryAdd(4, "chitra");
             foreach (var d in dic)
             {
                 Console.WriteLine(d);
