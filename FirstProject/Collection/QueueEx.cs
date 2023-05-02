@@ -8,7 +8,7 @@ namespace FirstProject.Collection
 {
     internal class QueueEx
     {
-        public static void Main(string[] args)
+        public static void main(string[] args)
         {
             //creating queue 
             Queue<String> queue= new Queue<String>();
@@ -25,7 +25,7 @@ namespace FirstProject.Collection
             }
             //deleting data from queue
             Console.WriteLine("-----------------------------");
-            Console.WriteLine(queue.Dequeue());
+            Console.WriteLine(queue.Dequeue());//delete the first element which is inserted first
            // Console.WriteLine(queue.Append("g"));  
             Console.WriteLine("Size of the queue is : "+queue.Count());//getting size of the queue
             Console.WriteLine("First element in queue: "+queue.First());//getting first element

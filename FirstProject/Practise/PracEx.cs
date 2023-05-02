@@ -30,7 +30,7 @@ namespace FirstProject.Practise
    /* public class ChildCls 
     {
         public String city;
-        public ChildCls(string city,String name) : base(name)
+        public ChildCls(string city,String name): base(name)
         {
             this.city = city;
         }
@@ -39,7 +39,7 @@ namespace FirstProject.Practise
           //  base.Display();
             Console.WriteLine(city);
         }
-        public static void main(String[] args)
+        public static void main(String[] args)9
         {
             String name = "chitra";
             ChildCls chilCls=new ChildCls("Bangalore",name);
